@@ -12,7 +12,6 @@
            
 <!-- Additional -->
   <project path="vendor/ANXCamera" name="vendor_ANXCamera" remote="donboruza" revision="11" />
-  <project path="packages/apps/MtkFMRadio" name="android_packages_apps_MtkFMRadio" remote="donboruza" revision="12.1" />
   <project path="vendor/dirac" name="vendor_dirac" remote="donboruza" revision="main" />
 
 <!-- Trees -->
