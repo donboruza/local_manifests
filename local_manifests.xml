@@ -23,7 +23,7 @@
 <!-- Trees -->
  <project path="device/redmi/begonia" name="device_redmi_note8pro" remote="donboruza" revision="twelve" />
  <project path="vendor/redmi/begonia" name="vendor_redmi_note8pro" remote="donboruza" revision="twelve" />
- <project path="kernel/xiaomi/mt6785" name="android_kernel_xiaomi_mt6785" remote="begonia" revision="12.1" />
+ <project path="kernel/xiaomi/mt6785" name="android_kernel_xiaomi_mt6785" remote="donboruza" revision="12.1" />
  <project path="device/mediatek/sepolicy" name="android_device_mediatek_sepolicy" remote="donboruza" revision="12.1" />
  <project path="vendor/redmi/begonia-ims" name="android_vendor_redmi_begonia-ims" remote="donboruza" revision="12.0" />
  <project path="vendor/redmi/begonia-firmware" name="vendor_redmi_note8pro-firmware" remote="donboruza" revision="main" />
