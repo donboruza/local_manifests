@@ -11,8 +11,8 @@
            fetch="https://github.com/VoidDev-0" />
 
 <!-- Remove -->
-  <remove-project name="android_frameworks_base" />
-  <remove-project name="android_packages_apps_crDroidSettings" />
+  <remove-project name="crdroidandroid/android_frameworks_base" />
+  <remove-project name="crdroidandroid/android_packages_apps_crDroidSettings" />
            
 <!-- Additional -->
   <project path="vendor/ANXCamera" name="vendor_ANXCamera" remote="donboruza" revision="11" />
