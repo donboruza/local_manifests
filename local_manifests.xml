@@ -5,13 +5,11 @@
   <remote name="track" fetch="https://github.com" />
 
 <!-- Remove -->
-  <remove-project name="crdroidandroid/android_frameworks_base" />
-  <remove-project name="crdroidandroid/android_packages_apps_crDroidSettings" />
+  <remove-project name="xd_device_xdroid_sepolicy" />
            
 <!-- Additional -->
   <project path="vendor/ANXCamera" name="donboruza/vendor_ANXCamera" remote="track" revision="11" />
-  <project path="frameworks/base" name="donboruza/android_frameworks_base" remote="track" revision="12.1" />
-  <project path="packages/apps/crDroidSettings" name="donboruza/android_packages_apps_crDroidSettings" remote="track" revision="12.1" />
+  <project path="device/xdroid/sepolicy" name="donboruza/xd_device_xdroid_sepolicy" remote="track" revision="12.1" />
   <project path="vendor/dirac" name="donboruza/vendor_dirac" remote="track" revision="main" />
 
 <!-- Trees -->
