@@ -1,31 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
- <remote name="donboruza"
-           fetch="https://github.com/donboruza" />
-
- <remote name="begonia"
-           fetch="https://github.com/begonia-dev" />
-           
- <remote name="void"
-           fetch="https://github.com/VoidDev-0" />
+<!-- Tracking -->
+  <remote name="track" fetch="https://github.com" />
 
 <!-- Remove -->
   <remove-project name="crdroidandroid/android_frameworks_base" />
   <remove-project name="crdroidandroid/android_packages_apps_crDroidSettings" />
            
 <!-- Additional -->
-  <project path="vendor/ANXCamera" name="vendor_ANXCamera" remote="donboruza" revision="11" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="donboruza" revision="12.1" />
-  <project path="packages/apps/crDroidSettings" name="android_packages_apps_crDroidSettings" remote="donboruza" revision="12.1" />
-  <project path="vendor/dirac" name="vendor_dirac" remote="donboruza" revision="main" />
+  <project path="vendor/ANXCamera" name="donboruza/vendor_ANXCamera" remote="track" revision="11" />
+  <project path="frameworks/base" name="donboruza/android_frameworks_base" remote="track" revision="12.1" />
+  <project path="packages/apps/crDroidSettings" name="donboruza/android_packages_apps_crDroidSettings" remote="track" revision="12.1" />
+  <project path="vendor/dirac" name="donboruza/vendor_dirac" remote="track" revision="main" />
 
 <!-- Trees -->
- <project path="device/redmi/begonia" name="device_redmi_note8pro" remote="donboruza" revision="twelve" />
- <project path="vendor/redmi/begonia" name="vendor_redmi_note8pro" remote="donboruza" revision="twelve" />
- <project path="kernel/xiaomi/mt6785" name="android_kernel_xiaomi_mt6785" remote="donboruza" revision="12.1" />
- <project path="device/mediatek/sepolicy" name="android_device_mediatek_sepolicy" remote="donboruza" revision="12.1" />
- <project path="vendor/redmi/begonia-ims" name="android_vendor_redmi_begonia-ims" remote="donboruza" revision="12.0" />
- <project path="vendor/redmi/begonia-firmware" name="vendor_redmi_note8pro-firmware" remote="donboruza" revision="main" />
+ <project path="device/redmi/begonia" name="donboruza/device_redmi_note8pro" remote="track" revision="twelve" />
+ <project path="vendor/redmi/begonia" name="donboruza/vendor_redmi_note8pro" remote="track" revision="twelve" />
+ <project path="kernel/xiaomi/mt6785" name="donboruza/android_kernel_xiaomi_mt6785" remote="track" revision="12.1" />
+ <project path="device/mediatek/sepolicy" name="donboruza/android_device_mediatek_sepolicy" remote="track" revision="12.1" />
+ <project path="vendor/redmi/begonia-ims" name="donboruza/android_vendor_redmi_begonia-ims" remote="track" revision="12.0" />
 
 </manifest>
