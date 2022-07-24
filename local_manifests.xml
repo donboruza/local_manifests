@@ -3,11 +3,15 @@
 
 <!-- Tracking -->
   <remote name="track" fetch="https://github.com" />
+
+<!-- Remove -->
+  <remove-project name="RiceDroid/android_vendor_rice" />
            
 <!-- Additional -->
   <project path="vendor/ANXCamera" name="donboruza/vendor_ANXCamera" remote="track" revision="11" /> 
   <project path="vendor/dirac" name="donboruza/vendor_dirac" remote="track" revision="main" />
-  <project path="packages/apps/Matlog" name="crdroidandroid/android_packages_apps_Matlog" remote="crdroid" revision="12.1" />
+  <project path="vendor/lineage" name="donboruza/android_vendor_rice" remote="track" revision="twelve" />
+  <project path="packages/apps/Matlog" name="crdroidandroid/android_packages_apps_Matlog" remote="track" revision="12.1" />
 
 <!-- Trees -->
  <project path="device/redmi/begonia" name="donboruza/device_redmi_note8pro" remote="track" revision="twelve" />
