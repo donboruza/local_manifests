@@ -7,12 +7,14 @@
 <!-- Additional -->
   <remove-project name="packages_apps_Fireworks" />
   <remove-project name="frameworks_base" />
+  <remove-project name="packages_apps_Settings" />
 
 <!-- Additional -->
   <project path="vendor/ANXCamera" name="donboruza/vendor_ANXCamera" remote="track" revision="11" />
   <project path="vendor/dirac" name="donboruza/vendor_dirac" remote="track" revision="main" />
   <project path="frameworks/base" name="donboruza/frameworks_base" remote="track" revision="spark" />
   <project path="packages/apps/Fireworks" name="donboruza/packages_apps_Fireworks" remote="track" revision="spark" />
+  <project path="packages/apps/Settings" name="donboruza/packages_apps_Settings" remote="track" revision="spark" />
 
 <!-- Trees -->
   <project path="device/redmi/begonia" name="donboruza/device_redmi_note8pro" remote="track" revision="spark" />
