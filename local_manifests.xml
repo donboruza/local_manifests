@@ -5,14 +5,20 @@
   <remote name="track" fetch="https://github.com" />
 
 <!-- Additional -->
+  <remove-project name="packages_apps_Fireworks" />
+  <remove-project name="frameworks_base" />
+
+<!-- Additional -->
   <project path="vendor/ANXCamera" name="donboruza/vendor_ANXCamera" remote="track" revision="11" />
   <project path="vendor/dirac" name="donboruza/vendor_dirac" remote="track" revision="main" />
+  <project path="frameworks/base" name="donboruza/frameworks_base" remote="track" revision="spark" />
+  <project path="packages/apps/Fireworks" name="donboruza/packages_apps_Fireworks" remote="track" revision="spark" />
 
 <!-- Trees -->
- <project path="device/redmi/begonia" name="donboruza/device_redmi_note8pro" remote="track" revision="spark" />
- <project path="vendor/redmi/begonia" name="donboruza/vendor_redmi_note8pro" remote="track" revision="twelve" />
- <project path="kernel/xiaomi/mt6785" name="donboruza/android_kernel_xiaomi_mt6785" remote="track" revision="12.1" />
- <project path="device/mediatek/sepolicy" name="donboruza/android_device_mediatek_sepolicy" remote="track" revision="12.1" />
- <project path="vendor/redmi/begonia-ims" name="donboruza/android_vendor_redmi_begonia-ims" remote="track" revision="12.0" />
+  <project path="device/redmi/begonia" name="donboruza/device_redmi_note8pro" remote="track" revision="spark" />
+  <project path="vendor/redmi/begonia" name="donboruza/vendor_redmi_note8pro" remote="track" revision="twelve" />
+  <project path="kernel/xiaomi/mt6785" name="donboruza/android_kernel_xiaomi_mt6785" remote="track" revision="12.1" />
+  <project path="device/mediatek/sepolicy" name="donboruza/android_device_mediatek_sepolicy" remote="track" revision="12.1" />
+  <project path="vendor/redmi/begonia-ims" name="donboruza/android_vendor_redmi_begonia-ims" remote="track" revision="12.0" />
 
 </manifest>
