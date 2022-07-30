@@ -10,10 +10,10 @@
   <project name="vendor_dirac" path="vendor/dirac" revision="main" remote="don" />
 
 <!-- Trees -->
- <project name="device_redmi_note8pro" path="device/redmi/begonia"  revision="corvus" remote="don"  clone-depth="1" />
- <project name="vendor_redmi_note8pro" path="vendor/redmi/begonia"  revision="twelve" remote="don" clone-depth="1" />
- <project name="android_kernel_xiaomi_mt6785" path="kernel/xiaomi/mt6785" revision="12.1" remote="don" clone-depth="1" />
- <project name="android_device_mediatek_sepolicy" path="device/mediatek/sepolicy" revision="12.1" remote="don" clone-depth="1"  />
- <project name="android_vendor_redmi_begonia-ims" path="vendor/redmi/begonia-ims" revision="12.0" remote="don" clone-depth="1" />
+ <project name="device_redmi_note8pro" path="device/redmi/begonia" revision="corvus" remote="don" />
+ <project name="vendor_redmi_note8pro" path="vendor/redmi/begonia" revision="twelve" remote="don" />
+ <project name="android_kernel_xiaomi_mt6785" path="kernel/xiaomi/mt6785" revision="12.1" remote="don" />
+ <project name="android_device_mediatek_sepolicy" path="device/mediatek/sepolicy" revision="12.1" remote="don" />
+ <project name="android_vendor_redmi_begonia-ims" path="vendor/redmi/begonia-ims" revision="12.0" remote="don" />
 
 </manifest>
