@@ -3,16 +3,16 @@
 
 <!-- Tracking -->
   <remote name="track" fetch="https://github.com" />
+  <remote name="lab" fetch="https://gtlab.com" />
 
 <!-- Additional -->
-  <project path="vendor/ANXCamera" name="donboruza/vendor_ANXCamera" remote="track" revision="11" />
-  <project path="vendor/dirac" name="donboruza/vendor_dirac" remote="track" revision="main" />
+  <project path="vendor/xiaomi/sweet-miuicamera" name="basamaryan/vendor_xiaomi_sweet-miuicamera" remote="lab" revision="12.1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="GhostMaster69-dev/cosmic-clang" remote="lab" revision="master" clone-depth="1" />
 
 <!-- Trees -->
- <project path="device/redmi/begonia" name="donboruza/device_redmi_note8pro" remote="track" revision="corvus" />
- <project path="vendor/redmi/begonia" name="donboruza/vendor_redmi_note8pro" remote="track" revision="twelve" />
- <project path="kernel/xiaomi/mt6785" name="donboruza/android_kernel_xiaomi_mt6785" remote="track" revision="12.1" />
- <project path="device/mediatek/sepolicy" name="donboruza/android_device_mediatek_sepolicy" remote="track" revision="12.1" />
- <project path="vendor/redmi/begonia-ims" name="donboruza/android_vendor_redmi_begonia-ims" remote="track" revision="12.0" />
+ <project path="device/xiaomi/sweet" name="donboruza/device_xiaomi_sweet" remote="track" revision="twelve" />
+ <project path="vendor/xiaomi/sweet" name="donboruza/vendor_xiaomi_sweet" remote="track" revision="twelve" />
+ <project path="kernel/xiaomi/sm6150" name="vantoman/kernel_xiaomi_sm6150.git" remote="track" revision="courbet-12.1" />
+ <project path="device/xiaomi/sm6150-common" name="donboruza/device_xiaomi_sm6150-common" remote="track" revision="twelve" />
 
 </manifest>
