@@ -6,13 +6,9 @@
   <remote name="cam" fetch="https://gitlab.com/basamaryan" />
   <remote name="clang" fetch="https://gitlab.com/GhostMaster69-dev" />
 
-<!-- Remove -->
-  <remove-project name="system_sepolicy" />
-
 <!-- Additional -->
   <project path="vendor/xiaomi/sweet-miuicamera" name="vendor_xiaomi_sweet-miuicamera" remote="cam" revision="12.1" />
   <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="cosmic-clang" remote="clang" revision="master" clone-depth="1" />
-  <project path="system/sepolicy" name="donboruza/system_sepolicy" remote="track" revision="spark" />
 
 <!-- Trees -->
  <project path="device/xiaomi/sweet" name="donboruza/device_xiaomi_sweet" remote="track" revision="twelve" />
