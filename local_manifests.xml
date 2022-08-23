@@ -17,7 +17,7 @@
   <project path="hardware/lineage/livedisplay" name="LineageOS/android_hardware_lineage_livedisplay" remote="track" revision="lineage-19.1" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="donboruza/vendor_qcom_opensource_packages_apps_Bluetooth" remote="track" revision="twelve" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="PixelPlusUI-CAF/vendor_qcom_opensource_commonsys_bluetooth_ext" remote="track" revision="snowcone-12.1" />
-  <project path="vendor/qcom/opensource/commonsys/system/bt" name="PixelPlusUI-CAF/vendor_qcom_opensource_commonsys_system_bt" remote="track" revision="snowcone-12.1" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="donboruza/vendor_qcom_opensource_commonsys_system_bt" remote="track" revision="twelve" />
 
 <!-- Trees -->
  <project path="device/xiaomi/sweet" name="donboruza/device_xiaomi_sweet" remote="track" revision="conq" />
