@@ -10,6 +10,8 @@
   <remove-project name="vendor_qcom_opensource_packages_apps_Bluetooth" />
   <remove-project name="platform/vendor/qcom-opensource/bluetooth_ext" />
   <remove-project name="vendor_qcom_opensource_commonsys_system_bt" />
+  <remove-project name="packages_apps_Settings" />
+
 <!-- Additional -->
   <project path="vendor/xiaomi/sweet-miuicamera" name="vendor_xiaomi_sweet-miuicamera" remote="cam" revision="12.1" />
   <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="cosmic-clang" remote="clang" revision="master" clone-depth="1" />
@@ -18,6 +20,7 @@
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="donboruza/vendor_qcom_opensource_packages_apps_Bluetooth" remote="track" revision="twelve" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="PixelPlusUI-CAF/vendor_qcom_opensource_commonsys_bluetooth_ext" remote="track" revision="snowcone-12.1" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="donboruza/vendor_qcom_opensource_commonsys_system_bt" remote="track" revision="twelve" />
+  <project path="packages/apps/Settings" name="donboruza/packages_apps_Settings-1" remote="track" revision="twelve" />
 
 <!-- Trees -->
  <project path="device/xiaomi/sweet" name="donboruza/device_xiaomi_sweet" remote="track" revision="conq" />
