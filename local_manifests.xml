@@ -25,7 +25,7 @@
 <!-- Trees -->
  <project path="device/xiaomi/sweet" name="donboruza/device_xiaomi_sweet" remote="track" revision="conq" />
  <project path="vendor/xiaomi" name="donboruza/vendor_xiaomi" remote="track" revision="twelve" />
- <project path="kernel/xiaomi/sm6150" donboruza/kernel_xiaomi_sweet" remote="track" revision="twelve" />
+ <project path="kernel/xiaomi/sm6150" name="donboruza/kernel_xiaomi_sweet" remote="track" revision="twelve" />
  <project path="device/xiaomi/sm6150-common" name="donboruza/device_xiaomi_sm6150-common" remote="track" revision="twelve" />
 
 </manifest>
