@@ -11,6 +11,6 @@
 <!-- Trees -->
   <project path="device/xiaomi/sweet" name="donboruza/device_xiaomi_sweet" remote="track" revision="12.1" />
   <project path="vendor/xiaomi/sweet" name="donboruza/vendor_xiaomi_sweet" remote="track" revision="12.1" />
-  <project path="kernel/xiaomi/sm6150" name="vantoman/kernel_xiaomi_sm6150" remote="track" revision="courbet-12.1" />
+  <project path="kernel/xiaomi/sweet" name="shashank1439/kernel_xiaomi_sm6150" remote="track" revision="s12.1" />
 
 </manifest>
