@@ -3,10 +3,10 @@
 
 <!-- Tracking -->
   <remote name="track" fetch="https://github.com" />
-  <remote name="clang" fetch="https://gitlab.com/GhostMaster69-dev" />
+  <remote name="arrow" fetch="https://github.com/ArrowOS-Devices" />
 
 <!-- Additional -->
-  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="track" revision="master" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="arrow" revision="arrow-11.0" />
 
 <!-- Trees -->
   <project path="device/xiaomi/sweet" name="donboruza/device_xiaomi_sweet" remote="track" revision="12.1" />
