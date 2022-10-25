@@ -4,11 +4,15 @@
 <!-- Tracking -->
   <remote name="track" fetch="https://github.com" />
   <remote name="arrow" fetch="https://github.com/ArrowOS-Devices" />
+  <remote name="aosp"
+          fetch="https://android.googlesource.com"
+          review="android-review.googlesource.com"
+          revision="refs/tags/android-12.1.0_r22" />
 
 <!-- Additional -->
   <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="arrow" revision="arrow-11.0" />
-  <remove-project name="RiceDroid/android_frameworks_av" />
-  <project path="frameworks/av" name="CherishOS/android_frameworks_av" remote="track" revision="twelve-one" />
+  <remove-project name="platform/external/libgav1" />
+  <project path="external/libgav1" name="platform/external/libgav1" groups="pdk" remote="aosp" />
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="track" revision="master" />
 
 <!-- Trees -->
