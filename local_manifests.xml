@@ -4,6 +4,7 @@
 <!-- Tracking -->
   <remote name="track" fetch="https://github.com" />
   <remote name="arrow" fetch="https://github.com/ArrowOS-Devices" />
+  <remote name="clang" fetch="https://gitlab.com/varunhardgamer" />
   <remote name="aosp"
           fetch="https://android.googlesource.com"
           review="android-review.googlesource.com"
@@ -13,10 +14,10 @@
   <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="arrow" revision="arrow-11.0" />
   <remove-project name="platform/external/libgav1" />
   <project path="external/libgav1" name="platform/external/libgav1" groups="pdk" remote="aosp" />
-  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="track" revision="master" />
+  <project path="prebuilts/clang/host/linux-x86/clang-trb" name="trb_clang" remote="clang" revision="15" />
 
 <!-- Trees -->
-  <project path="device/xiaomi/sweet" name="donboruza/device_xiaomi_sweet" remote="track" revision="12.1" />
+  <project path="device/xiaomi/sweet" name="donboruza/device_xiaomi_sweet" remote="track" revision="12.1-wip" />
   <project path="vendor/xiaomi/sweet" name="donboruza/vendor_xiaomi_sweet" remote="track" revision="12.1" />
   <project path="kernel/xiaomi/sweet" name="shashank1439/kernel_xiaomi_sm6150" remote="track" revision="s12.1" />
 
