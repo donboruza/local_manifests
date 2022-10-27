@@ -16,7 +16,7 @@
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="track" revision="master" />
 
 <!-- Trees -->
-  <project path="device/xiaomi/sweet" name="donboruza/device_xiaomi_sweet" remote="track" revision="12.1" />
+  <project path="device/xiaomi/sweet" name="donboruza/device_xiaomi_sweet" remote="track" revision="12.1-wip" />
   <project path="vendor/xiaomi/sweet" name="donboruza/vendor_xiaomi_sweet" remote="track" revision="12.1" />
   <project path="kernel/xiaomi/sweet" name="shashank1439/kernel_xiaomi_sm6150" remote="track" revision="s12.1" />
 
