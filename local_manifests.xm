@@ -5,7 +5,6 @@
   <remote name="track" fetch="https://github.com" />
   <remote name="arrow" fetch="https://github.com/ArrowOS-Devices" />
   <remote name="bams" fetch="https://github.com/donboruza" />
-
 <!-- Additional -->
   <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="arrow" revision="arrow-11.0" />
   <remove-project name="LineageOS/android_hardware_lineage_compat" />
