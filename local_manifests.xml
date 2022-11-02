@@ -4,7 +4,7 @@
 <!-- Tracking -->
   <remote name="track" fetch="https://github.com" />
   <remote name="bams" fetch="https://github.com/donboruza" />
-  <remote name="aosp"
+  <remote name="master"
           fetch="https://android.googlesource.com"
           review="android-review.googlesource.com"
           revision="refs/heads/master" />
@@ -12,7 +12,7 @@
 
 <!-- Additional -->
   <remove-project name="platform/prebuilts/clang/host/linux-x86" />
-  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="pdk" remote="aosp" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="pdk" remote="master" clone-depth="1" />
   <remove-project name="LineageOS/android_hardware_lineage_compat" />
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="bams" revision="lineage-20.0" />
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="track" revision="master" />
