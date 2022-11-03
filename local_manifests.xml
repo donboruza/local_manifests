@@ -14,6 +14,6 @@
 <!-- Trees -->
   <project path="device/xiaomi/sweet" name="device_xiaomi_sweet" remote="bams" revision="13.0" />
   <project path="vendor/xiaomi/sweet" name="vendor_xiaomi_sweet" remote="bams" revision="arrow-13.0" />
-  <project path="kernel/xiaomi/sweet" name="shashank1439/kernel_xiaomi_sm6150" remote="track" revision="t13" />
+  <project path="kernel/xiaomi/sweet" name="itsshashanksp/sleepy" remote="track" revision="wip" />
 
 </manifest>
