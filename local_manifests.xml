@@ -7,6 +7,7 @@
   <remote name="clang" fetch="https://gitlab.com/ImSurajxD" />
 
 <!-- Additional -->
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" />
   <remove-project name="LineageOS/android_hardware_lineage_compat" />
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="track" revision="master" />
 
