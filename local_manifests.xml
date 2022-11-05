@@ -10,7 +10,7 @@
 <!-- Additional -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
   <remove-project name="LineageOS/android_hardware_lineage_compat" />
-  <project path="prebuilts/clang/host/linux-x86/clang-sdclang" name="SDClang" remote="sdclang" revision="16" />
+  <project path="prebuilts/clang/host/linux-x86/clang-sdclang" name="ZyCromerZ/SDClang" remote="track" revision="14" />
   <remove-project name="platform/packages/modules/Bluetooth" />
   <project path="packages/modules/Bluetooth" name="CherishOS/android_packages_modules_Bluetooth" remote="track" revision="tiramisu" />
   <remove-project name="LineageOS/android_hardware_qcom_bt" />
@@ -18,6 +18,6 @@
 <!-- Trees -->
   <project path="device/xiaomi/sweet" name="device_xiaomi_sweet" remote="bams" revision="13.0" />
   <project path="vendor/xiaomi/sweet" name="vendor_xiaomi_sweet" remote="bams" revision="13.0" />
-  <project path="kernel/xiaomi/sweet" name="itsshashanksp/kernel_xiaomi_sm6150" remote="track" revision="t13" />
+  <project path="kernel/xiaomi/sweet" name="kernel_xiaomi_sm6150" remote="bams" revision="t13" />
 
 </manifest>
