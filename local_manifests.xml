@@ -5,7 +5,7 @@
   <remote name="track" fetch="https://github.com" />
   <remote name="bams" fetch="https://github.com/donboruza" />
   <remote name="clang" fetch="https://gitlab.com/ImSurajxD" />
-  <rwmote name="cam" fetch="https://gitlab.com/jimgsey" />
+  <remote name="cam" fetch="https://gitlab.com/jimgsey" />
 
 <!-- Additional -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
