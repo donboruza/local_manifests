@@ -5,6 +5,7 @@
   <remote name="track" fetch="https://github.com" />
   <remote name="bams" fetch="https://github.com/donboruza" />
   <remote name="clang" fetch="https://gitlab.com/ImSurajxD" />
+  <rwmote name="cam" fetch="https://gitlab.com/jimgsey" />
 
 <!-- Additional -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
@@ -13,6 +14,7 @@
   <remove-project name="platform/packages/modules/Bluetooth" />
   <project path="packages/modules/Bluetooth" name="CherishOS/android_packages_modules_Bluetooth" remote="track" revision="tiramisu" />
   <remove-project name="LineageOS/android_hardware_qcom_bt" />
+  <project path="vendor/xiaomi/sweet-miuicamera" name="vendor_xiaomi_sweet-miuicamera" remote="cam" revision="13" />
 
 <!-- Trees -->
   <project path="device/xiaomi/sweet" name="device_xiaomi_sweet" remote="bams" revision="13.0" />
