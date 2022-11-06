@@ -5,11 +5,12 @@
   <remote name="track" fetch="https://github.com" />
   <remote name="bams" fetch="https://github.com/donboruza" />
   <remote name="clang" fetch="https://gitlab.com/ImSurajxD" />
+  <remote name="lol" fetch="https://gitlab.com/Jprimero15" />
 
 <!-- Additional -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
   <remove-project name="LineageOS/android_hardware_lineage_compat" />
-  <project path="prebuilts/clang/host/linux-x86/clang-sdclang" name="ZyCromerZ/SDClang" remote="track" revision="14" />
+  <project path="prebuilts/clang/host/linux-x86/clang-lolz" name="lolz_clang" remote="track" revision="14" />
   <remove-project name="platform/packages/modules/Bluetooth" />
   <project path="packages/modules/Bluetooth" name="CherishOS/android_packages_modules_Bluetooth" remote="track" revision="tiramisu" />
   <remove-project name="LineageOS/android_hardware_qcom_bt" />
