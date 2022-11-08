@@ -14,6 +14,8 @@
   <remove-project name="platform/packages/modules/Bluetooth" />
   <project path="packages/modules/Bluetooth" name="CherishOS/android_packages_modules_Bluetooth" remote="track" revision="tiramisu" />
   <remove-project name="LineageOS/android_hardware_qcom_bt" />
+  <remove-project name="RiceDroid/android_frameworks_base" />
+  <project path="frameworks/base" name="android_frameworks_base-1" groups="pdk-cw-fs,pdk-fs" revision="thirteen" />
 
 <!-- Trees -->
   <project path="device/xiaomi/sweet" name="device_xiaomi_sweet" remote="bams" revision="13.0" />
