@@ -6,12 +6,10 @@
   <remote name="bams" fetch="https://github.com/donboruza" />
   <remote name="clang" fetch="https://gitlab.com/ImSurajxD" />
   <remote name="sdclang" fetch="https://gitlab.com/nerdprojectorg" />
-  <remote name="dolby" fetch="https://gitlab.com/someone5678" />
 
 <!-- Additional -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86/clang-sdclang" name="SDClang" remote="sdclang" revision="16" />
-  <project path="vendor/dolby" name="vendor_dolby" remote="dolby" revision="thirteen" />
 
 <!-- Trees -->
   <project path="device/xiaomi/sweet" name="device_sweet" remote="bams" revision="thirteen" />
