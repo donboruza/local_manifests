@@ -7,7 +7,6 @@
   <remote name="clang" fetch="https://gitlab.com/ImSurajxD" />
   <remote name="sdclang" fetch="https://gitlab.com/nerdprojectorg" />
 
-<!-- Remove ---->
   <remove-project name="RiceDroid/android_build_soong" />
 
 <!-- Additional -->
