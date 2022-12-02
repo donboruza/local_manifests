@@ -8,15 +8,17 @@
   <remote name="sdclang" fetch="https://gitlab.com/nerdprojectorg" />
 
 <!-- Remove ---->
-  <remove-project name="RiceDroid/android_art" />
+  <remove-project name="RiceDroid/android_build_soong" />
 
 <!-- Additional -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86/clang-sdclang" name="SDClang" remote="sdclang" revision="16" />
-  <project path="art" name="crdroidandroid/android_art" groups="pdk" remote="track" revision="13.0" />
+  <project path="build/soong" name="android_build_soong" remote="bams" revision="thirteen" />
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
 
 <!-- Trees -->
-  <project path="device/xiaomi/sweet" name="device_sweet" remote="bams" revision="t-test" />
+  <project path="device/xiaomi/sweet" name="device_sweet" remote="bams" revision="thirteen" />
   <project path="vendor/xiaomi/sweet" name="vendor_sweet" remote="bams" revision="thirteen" />
   <project path="kernel/xiaomi/sweet" name="kernel_xiaomi_sm6150" remote="bams" revision="t13" />
 
