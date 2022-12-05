@@ -14,7 +14,6 @@
   <remove-project name="RiceDroid/android_frameworks_base" />
   <project path="frameworks/base" name="donboruza/android_frameworks_base-1" revision="thirteen" />
   <remove-project name="LineageOS/android_hardware_lineage_compat" />
-  <project path="hardware/lineage/compat" name="donboruza/android_hardware_lineage_compat" remote="bams" revision="lineage-20" />
 
 <!-- Trees -->
   <project path="device/xiaomi/sweet" name="device_xiaomi_sweet" remote="bams" revision="13.0" />
