@@ -14,8 +14,8 @@
   <project path="frameworks/base" name="donboruza/android_frameworks_base-1" revision="thirteen" />
 
 <!-- Trees -->
-  <project path="device/xiaomi/sweet" name="device_xiaomi_sweet" remote="bams" revision="thirteen" />
-  <project path="vendor/xiaomi/sweet" name="vendor_sweet" remote="bams" revision="thirteen" />
+  <project path="device/xiaomi/sweet" name="device_xiaomi_sweet" remote="bams" revision="rebase" />
+  <project path="vendor/xiaomi/sweet" name="vendor_sweet" remote="bams" revision="rebase" />
   <project path="kernel/xiaomi/sweet" name="kernel_xiaomi_sm6150" remote="bams" revision="t13" />
 
 </manifest>
