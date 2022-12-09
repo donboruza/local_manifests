@@ -10,8 +10,6 @@
 <!-- Additional -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86/clang-sdclang" name="SDClang" remote="sdclang" revision="16" />
-  <remove-project name="RiceDroid/android_frameworks_base" />
-  <project path="frameworks/base" name="donboruza/android_frameworks_base-1" revision="thirteen" />
 
 <!-- Trees -->
   <project path="device/xiaomi/sweet" name="device_sweet" remote="bams" revision="rebase" />
