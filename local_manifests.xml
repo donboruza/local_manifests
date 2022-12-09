@@ -15,7 +15,6 @@
   <remove-project name="LineageOS/android_packages_providers_TelephonyProvider" />
   <project path="packages/providers/TelephonyProvider" name="donboruza/android_packages_providers_TelephonyProvider" remote="bams" revision="lineage-20.0" />
 
-
 <!-- Trees -->
   <project path="device/xiaomi/sweet" name="device_sweet" remote="bams" revision="rebase" />
   <project path="vendor/xiaomi/sweet" name="vendor_sweet" remote="bams" revision="rebase" />
