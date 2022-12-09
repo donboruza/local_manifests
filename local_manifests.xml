@@ -14,6 +14,8 @@
   <project path="packages/services/Mms" name="Lafactorial/android_packages_services_Mms" remote="track" revision="lineage-20.0" />
   <remove-project name="LineageOS/android_packages_providers_TelephonyProvider" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="bams" revision="lineage-20.0" />
+  <remove-project name="LineageOS/android_frameworks_opt_telephony" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="bams" revision="lineage-20.0" />
 
 <!-- Trees -->
   <project path="device/xiaomi/sweet" name="device_sweet" remote="bams" revision="rebase" />
