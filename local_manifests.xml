@@ -5,11 +5,13 @@
   <remote name="track" fetch="https://github.com" />
   <remote name="bams" fetch="https://github.com/donboruza" />
   <remote name="clang" fetch="https://gitlab.com/ImSurajxD" />
+  <remote name="trb" fetch="https://gitlab.com/varunhardgamer" />
 
 <!-- Additional -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="track" revision="master" />
   <remove-project name="android_hardware_qcom_bt" />
+  <project path="prebuilts/clang/host/linux-x86/clang-trb" name="trb_clang" remote="trb" revision="16" />
 
 <!-- Trees -->
   <project path="device/xiaomi/sweet" name="device_sweet" remote="bams" revision="cherish" />
