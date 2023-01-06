@@ -10,11 +10,9 @@
 <!-- Additional -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86/clang-trb" name="trb_clang" remote="trb" revision="16" />
-  <remove-project name="packages_apps_Launcher3" />
-  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="bams" revision="tirimbino" />
 
 <!-- Trees -->
-  <project path="device/xiaomi/sweet" name="device_sweet" remote="bams" revision="btlg-13" />
+  <project path="device/xiaomi/sweet" name="device_sweet" remote="bams" revision="cipher-13" />
   <project path="vendor/xiaomi/sweet" name="sweet_vendor" remote="bams" revision="thirteen" />
   <project path="kernel/xiaomi/sweet" name="kernel_xiaomi_sm6150" remote="bams" revision="test" />
 
