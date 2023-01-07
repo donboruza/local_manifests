@@ -10,8 +10,8 @@
 <!-- Additional -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86/clang-trb" name="trb_clang" remote="trb" revision="16" />
-  <remove-project name= "android_vendor_qcom_opensource_dataservices" />
-  <project path="vendor/qcom/opensource/dataservices" name"Project-Elixir/android_vendor_qcom_opensource_dataservices" remote="track" revision="Tiramisu" />
+  <remove-project name="android_vendor_qcom_opensource_dataservices" />
+  <project path="vendor/qcom/opensource/dataservices" name"android_vendor_qcom_opensource_dataservices" remote="bams" revision="Tiramisu" />
 
 <!-- Trees -->
   <project path="device/xiaomi/sweet" name="device_sweet" remote="bams" revision="cipher" />
