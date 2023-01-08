@@ -12,6 +12,8 @@
   <project path="prebuilts/clang/host/linux-x86/clang-trb" name="trb_clang" remote="trb" revision="16" />
   <remove-project name="android_vendor_qcom_opensource_dataservices" />
   <project path="vendor/qcom/opensource/dataservices" name"android_vendor_qcom_opensource_dataservices" remote="bams" revision="Tiramisu" />
+  <remove-project name="android_vendor_cipher" />
+  <project path="vendor/cipher" name="android_vendor_cipher" remote="bams" revision="thirteen" />
 
 <!-- Trees -->
   <project path="device/xiaomi/sweet" name="device_sweet" remote="bams" revision="cipher" />
