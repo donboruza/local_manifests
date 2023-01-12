@@ -18,6 +18,8 @@
   <project path="frameworks/base" name="android_frameworks_base-2" remote="bams" revision="thirteen" />
   <remove-project name="android_device_qcom_sepolicy_vndr" />
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="bams" revision="thirteen" />
+  <remove-project name="android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="bams" revision="thirteen" />
 
 <!-- Trees -->
   <project path="device/xiaomi/sweet" name="device_sweet" remote="bams" revision="cipher" />
