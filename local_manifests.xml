@@ -4,11 +4,14 @@
 <!-- Tracking -->
   <remote name="track" fetch="https://github.com" />
   <remote name="bams" fetch="https://github.com/donboruza" />
-  <remote name="clang" fetch="https://gitlab.com/ImSurajxD" />
   <remote name="trb" fetch="https://gitlab.com/varunhardgamer" />
+  <remote name="me-lab"
+            fetch="https://gitlab.com/anandhan07/"
+            clone-depth="1" />
 
 <!-- Additional -->
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r468909b" name="aosp-clang" remote="me-lab" revision="clang-15.0.3" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="aosp-clang" remote="me-lab" revision="clang-14.0.6" />
   <project path="prebuilts/clang/host/linux-x86/clang-trb" name="trb_clang" remote="trb" revision="16" />
 
 <!-- Trees -->
