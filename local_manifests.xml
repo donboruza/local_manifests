@@ -6,6 +6,7 @@
   <remote name="bams" fetch="https://github.com/donboruza" />
   <remote name="clang" fetch="https://gitlab.com/ImSurajxD" />
   <remote name="trb" fetch="https://gitlab.com/varunhardgamer" />
+  <remote name="ngk" fetch="https://github.com/Pierre2324" />
 
 <!-- Additional -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
@@ -15,6 +16,6 @@
 <!-- Trees -->
   <project path="device/xiaomi/beryllium" name="device_beryllium" remote="bams" revision="thirteen" />
   <project path="vendor/xiaomi/beryllium" name="vendor_beryllium" remote="bams" revision="thirteen" />
-  <project path="kernel/xiaomi/sdm845" name="NGK_android_kernel_xiaomi_sdm845" remote="bams" revision="thirteen" />
+  <project path="kernel/xiaomi/sdm845" name="NGK_android_kernel_xiaomi_sdm845" remote="ngk" revision="t-caf-latest" />
 
 </manifest>
