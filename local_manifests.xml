@@ -12,6 +12,7 @@
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="track" revision="master" />
   <remove-project name="device_mediatek_sepolicy_vndr" />
+  <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="bams" revision="13" />
 
 <!-- Trees -->
   <project path="device/xiaomi/beryllium" name="device_beryllium" remote="bams" revision="thirteen" />
