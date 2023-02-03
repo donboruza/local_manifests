@@ -14,6 +14,7 @@
   <remove-project name="device_mediatek_sepolicy_vndr" />
   <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="bams" revision="13" />
   <project path="device/qcom/sepolicy_vndr-legacy-um" name="LineageOS/android_device_qcom_sepolicy_vndr" remote="track" revision="lineage-20.0-legacy-um" />
+  <remove-project name="hardware_xiaomi" />
 
 
 <!-- Trees -->
