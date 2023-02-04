@@ -6,7 +6,7 @@
   <remote name="bams" fetch="https://github.com/donboruza" />
   <remote name="clang" fetch="https://gitlab.com/ImSurajxD" />
   <remote name="trb" fetch="https://gitlab.com/varunhardgamer" />
-  <remote name="silver" fetch="https://github.com/PainKiller3/kernel_xiaomi_sdm845" />
+  <remote name="silver" fetch="https://github.com/PainKiller3" />
 
 <!-- Additional -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
