@@ -6,7 +6,7 @@
   <remote name="bams" fetch="https://github.com/donboruza" />
   <remote name="clang" fetch="https://gitlab.com/ImSurajxD" />
   <remote name="trb" fetch="https://gitlab.com/varunhardgamer" />
-  <remote name="silver" fetch="https://github.com/Dooms-v" />
+  <remote name="silver" fetch="https://github.com/PainKiller3" />
 
 <!-- Additional -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
@@ -17,6 +17,6 @@
 <!-- Trees -->
   <project path="device/xiaomi/beryllium" name="device_beryllium" remote="bams" revision="rice-13" />
   <project path="vendor/xiaomi/beryllium" name="vendor_beryllium" remote="bams" revision="thirteen" />
-  <project path="kernel/xiaomi/sdm845" name="SC-KERNEL" remote="silver" revision="thirteen" />
+  <project path="kernel/xiaomi/sdm845" name="kernel_xiaomi_sdm845" remote="silver" revision="thirteen" />
 
 </manifest>
