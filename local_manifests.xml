@@ -11,7 +11,6 @@
 <!-- Additional -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="track" revision="master" />
-  <remove-project name="LineageOS/android_hardware_xiaomi" />
 
 <!-- Trees -->
   <project path="device/xiaomi/beryllium" name="device_beryllium" remote="bams" revision="rice-13" />
