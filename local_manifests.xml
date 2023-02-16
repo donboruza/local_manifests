@@ -10,7 +10,7 @@
 
 <!-- Additional -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
-  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="track" revision="master" />
+  <project path="prebuilts/clang/host/linux-x86/clang-trb" name="trb_clang" remote="trb" revision="17" />
   <remove-project name="LineageOS/android_hardware_xiaomi" />
 
 <!-- Trees -->
