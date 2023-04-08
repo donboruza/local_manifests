@@ -6,15 +6,19 @@
   <remote name="bams" fetch="https://github.com/donboruza" />
   <remote name="clang" fetch="https://gitlab.com/ImSurajxD" />
   <remote name="trb" fetch="https://gitlab.com/varunhardgamer" />
-  <remote name="silver" fetch="https://github.com/PainKiller3" />
+  <remote name="hw" fetch="https://github.com/linux4-bringup-priv" />
+  <remote name="org" fetch="https://github.com/nerdprojectorg" />
 
 <!-- Additional -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="track" revision="master" />
 
 <!-- Trees -->
-  <project path="device/xiaomi/beryllium" name="device_beryllium" remote="bams" revision="rice-13" />
-  <project path="vendor/xiaomi/beryllium" name="vendor_beryllium" remote="bams" revision="thirteen" />
-  <project path="kernel/xiaomi/sdm845" name="kernel_xiaomi_sdm845" remote="silver" revision="thirteen" />
+  <project path="device/xiaomi/dreamlte" name="device_samsung_dreamlte" remote="org" revision="crdroid" />
+  <project path="device/samsung/universal8895-common" name="android_device_samsung_universal8895-common" remote="org" revision="lineage-20.0" />
+  <project path="vendor/samsung" name="property_vendor_samsung" remote="org" revision="lineage-20.0" />
+  <project path="kernel/xiaomi/universal8895" name="kernel_samsung_universal8895" remote="org" revision="lineage-20.0" />
+  <project path="device/samsung_slsi/sepolicy" name="device_samsung_slsi_sepolicy" remote="org" revision="lineage-20"  />
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="hw" revision="lineage-20" />  
 
 </manifest>
