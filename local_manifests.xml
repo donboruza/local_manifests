@@ -6,7 +6,6 @@
   <remote name="bams" fetch="https://github.com/donboruza" />
   <remote name="clang" fetch="https://gitlab.com/ImSurajxD" />
   <remote name="trb" fetch="https://gitlab.com/varunhardgamer" />
-  <remote name="los" fetch="https://github.com/LineageOS" />
   <remote name="org" fetch="https://github.com/nerdprojectorg" />
 
 <!-- Additional -->
@@ -19,6 +18,6 @@
   <project path="vendor/samsung" name="property_vendor_samsung" remote="org" revision="lineage-20.0" />
   <project path="kernel/samsung/universal8895" name="kernel_samsung_universal8895" remote="org" revision="lineage-20.0" />
   <project path="device/samsung_slsi/sepolicy" name="device_samsung_slsi_sepolicy" remote="org" revision="lineage-20" />
-  <project path="hardware/samsung" name="android_hardware_samsung" remote="los" revision="lineage-20" />
+  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="track" revision="lineage-20" />
 
 </manifest>
