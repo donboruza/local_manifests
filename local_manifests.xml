@@ -11,7 +11,7 @@
 <!-- Additional -->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="track" revision="master" />
-  <remove-project name"vendor_support" />
+  <remove-project name="vendor_support" />
   <project path="vendor/support" name="vendor_support" remote="bams" revision="13" />
 
 <!-- Trees -->
