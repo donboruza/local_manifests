@@ -16,7 +16,7 @@
 
 <!-- Trees -->
   <project path="device/samsung/dreamlte" name="device_samsung_dreamlte" remote="org" revision="derp" />
-  <project path="device/samsung/universal8895-common" name="device_samsung_universal8895-common" remote="org" revision="wip" />
+  <project path="device/samsung/universal8895-common" name="device_samsung_universal8895-common" remote="org" revision="lineage-20.0" />
   <project path="vendor/samsung" name="property_vendor_samsung" remote="org" revision="lineage-20.0" />
   <project path="kernel/samsung/universal8895" name="kernel_samsung_universal8895" remote="org" revision="lineage-20.0" />
   <project path="device/samsung_slsi/sepolicy" name="device_samsung_slsi_sepolicy" remote="org" revision="lineage-20" />
