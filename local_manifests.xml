@@ -13,8 +13,8 @@
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="track" revision="master" />
 
 <!-- Trees -->
-  <project path="device/samsung/dreamlte" name="device_samsung_dreamlte_wip" remote="org" revision="test" />
-  <project path="vendor/samsung/dreamlte" name="property_vendor_samsung" remote="org" revision="test" />
+  <project path="device/samsung/dreamlte" name="device_samsung_dreamlte" remote="org" revision="wip" />
+  <project path="vendor/samsung/dreamlte" name="vendor_samsung_dreamlte" remote="org" revision="thirteen" />
   <project path="kernel/samsung/universal8895" name="kernel_samsung_universal8895" remote="org" revision="lineage-20.0" />
   <project path="device/samsung_slsi/sepolicy" name="device_samsung_slsi_sepolicy" remote="org" revision="lineage-20" />
   <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="track" revision="lineage-20" />
