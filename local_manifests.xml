@@ -9,7 +9,6 @@
   <remote name="org" fetch="https://github.com/nerdprojectorg" />
 
 <!-- Additional -->
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="track" revision="master" />
   <remove-project name="android_hardware_samsung" />
 
